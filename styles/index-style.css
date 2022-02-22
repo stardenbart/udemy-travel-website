@@ -1,0 +1,30 @@
+#container {
+  background-color: rgb(25, 25, 25);
+  padding: 10px;
+  /* width: 750px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p {
+  background-color: rgb(216, 150, 27);
+  margin: 10px;
+  width: 250px;
+}
+
+ul {
+  background-color: rgb(216, 150, 27);
+  width: 250px;
+  margin: 10px;
+}
+
+li {
+  background-color: rgb(216, 150, 27);
+  width: 100px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
