@@ -1,30 +1,16 @@
-#container {
-  background-color: rgb(25, 25, 25);
-  padding: 10px;
-  /* width: 750px; */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+#hero{
+  height: 800px;
+  background-image: url("../images/ocean.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-p {
-  background-color: rgb(216, 150, 27);
-  margin: 10px;
-  width: 250px;
-}
-
-ul {
-  background-color: rgb(216, 150, 27);
-  width: 250px;
-  margin: 10px;
-}
-
-li {
-  background-color: rgb(216, 150, 27);
-  width: 100px;
-}
-
-li a {
-  text-decoration: none;
-  color: black;
+#hero-content{
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
 }
