@@ -49,16 +49,16 @@
 }
 
 #highlights {
-  background-color: rgba(196, 238, 241, 255);
-  margin-top: -24px;
+  padding: 24px;
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
 }
 
 #highlights h2 {
   color: rgb(59, 65, 64);
   text-transform: uppercase;
+  font-size: 40px;
   text-align: center;
   margin: 24px 0;
-  padding: 24px 0 0 0;
 }
 
 #highlights p {
@@ -74,54 +74,23 @@
 
 #destinations {
   display: flex;
-  justify-content: center;
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
   text-align: center;
+  justify-content: center;
+  padding: 0;
 }
 
 .destination img {
   height: 200px;
-  width: 100%;
-  border-radius: 10px;
+  width: 400px;
   box-shadow: 2px 4px 8px rgb(68, 67, 67);
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .destination {
+  list-style: none;
   margin: 0 20px;
 }
-
-footer {
-  background-color: rgb(35, 39, 38);
-  margin-top: -40px;
-}
-
-#social {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-
-#social li{
-  list-style: none;
-}
-
-#social img {
-  width: 100px;
-}
-
-.sosmed{
-  margin: 30px 10px;
-}
-
-/* 
-
-#highlights img{
-  width: 300px;
-  height: 100px;  
-  align-items: center;
-}
-
-*/
